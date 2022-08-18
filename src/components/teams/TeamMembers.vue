@@ -13,7 +13,7 @@ import UserItem from '../users/UserItem.vue';
 
 export default {
   inject: ['users', 'teams'],
-  props:['teamId'],  
+  props: ['teamId'],
   components: {
     UserItem
   },
@@ -41,6 +41,7 @@ export default {
   created() {
     // this.$route.path
     this.loadTeamMembers(this.teamId);
+    console.log(this.$route.query);
   },
   watch: {
     teamId(newId) {
