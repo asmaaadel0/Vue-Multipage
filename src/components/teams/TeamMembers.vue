@@ -4,7 +4,7 @@
     <ul>
       <user-item v-for="member in members" :key="member.id" :name="member.fullName" :role="member.role"></user-item>
     </ul>
-    <router-link to="/teams/t2">Go to Team 2</router-link>
+    <!-- <router-link to="/teams/t2">Go to Team 2</router-link> -->
   </section>
 </template>
 
