@@ -1,6 +1,12 @@
 <template>
-  <button @click="confirmInput">Confirm</button>
-  <button @click="saveChanges">Save Changes</button>
+  <!-- <ul id="butt">
+    <li id="butt2">
+      <button @click="confirmInput">Confirm</button>
+    </li>
+    <li id="butt2">
+      <button @click="saveChanges">Save Changes</button>
+    </li>
+  </ul> -->
   <ul>
     <user-item v-for="user in users" :key="user.id" :name="user.fullName" :role="user.role"></user-item>
   </ul>
@@ -55,5 +61,31 @@ ul {
   margin: 2rem auto;
   max-width: 20rem;
   padding: 0;
+}
+#butt {
+  list-style: none;
+  margin: 1.5rem;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  text-decoration: none;
+  background: transparent;
+  border: 1px solid transparent;
+  cursor: pointer;
+  color: rgb(3, 3, 126);
+  padding: 0.5rem 1.5rem;
+  display: inline-block;
+}
+
+button:hover,
+button:active {
+  color: #f1a80a;
+  border-color: #f1a80a;
+  background-color: #1a037e;
 }
 </style>
