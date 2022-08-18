@@ -1,24 +1,39 @@
-# project
+## 📝 Table of Contents
 
-## Project setup
-```
-npm install
-```
+- [About](#about)
+- [website description](#website-description)
+- [Project setup](#Project-setup)
+- [Compiles and hot-reloads for development](#Compiles-and-hot-reloads-for-development)
+- [Website link](#link)
+- [Contributors](#Contributors)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## About <a name = "about"></a>
+- multi-pages App is a simple web application built using Vue js, HTML, CSS, and JavaScript.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## website description <a name = "website-description"></a>
 
-### Lints and fixes files
-```
-npm run lint
-```
+it's a simple website that includes multible pages with different URLs where I use Routes, Route Params, Dynamic Paths, and so on...
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Project setup <a name = "Project-setup"></a>
+- npm install
+
+## Compiles and hot-reloads for development <a name = "Compiles-and-hot-reloads-for-development"></a>
+- npm run serve
+
+## Website link <a name = "link"></a>
+
+- https://vue-multipage.netlify.app/
+
+ 
+## Contributors <a name = "Contributors"></a>
+
+<table>
+  <tr>
+    <td align="center">
+    <a href="https://github.com/asmaaadel0" target="_black">
+    <img src="https://avatars.githubusercontent.com/u/88618793?s=400&u=886a14dc5ef5c205a8e51942efe9665ed8fd4717&v=4" width="150px;" alt="Asmaa Adel"/>
+    <br />
+    <sub><b>Asmaa Adel</b></sub></a>
+    
+  </tr>
+ </table>
