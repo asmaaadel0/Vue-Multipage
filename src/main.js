@@ -32,6 +32,16 @@ const router = createRouter({
     { path: "/:notFound(.*)", component: NotFound },
   ],
   linkActiveClass: "active",
+  scrollBehavior(to, from, saverPosition) {
+    console.log(to, from, saverPosition);
+    if (saverPosition) {
+      return saverPosition;
+    }
+    return {
+      left: 0,
+      top: 0,
+    };
+  },
 });
 
 const app = createApp(App);
