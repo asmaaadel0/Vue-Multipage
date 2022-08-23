@@ -1,6 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
 
-
 import TeamsList from "./pages/TeamsList.vue";
 import UsersList from "./pages/UsersList.vue";
 import TeamMembers from "./components/teams/TeamMembers.vue";
@@ -8,15 +7,15 @@ import NotFound from "./pages/NotFound.vue";
 import TeamsFooter from "./pages/TeamsFooter.vue";
 import UsersFooter from "./pages/UsersFooter.vue";
 
-
 const router = createRouter({
   history: createWebHistory(),
   routes: [
-    { path: "/", redirect: "/teams" },
-    // { path: "/teams", component: TeamsList, alias: "/" },
+    // { path: "/", redirect: "/teams" },
+    // { path: "/teams", component: TeamsList },
     {
       name: "teams",
       path: "/teams",
+      alias: "/",
       meta: { needsAuth: true },
       components: { default: TeamsList, footer: TeamsFooter },
       children: [
