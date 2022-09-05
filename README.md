@@ -21,8 +21,12 @@ it's a simple website that includes multible pages with different URLs where I u
 - npm run serve
 
 ## Website link <a name = "link"></a>
-
-- https://vue-multipage.netlify.app/
+ 
+- Vercel Hosting:
+ - https://vue-multipage.vercel.app/
+ 
+- Netlify Hosting:
+ - https://vue-multipage.netlify.app/
 
  
 ## Contributors <a name = "Contributors"></a>
